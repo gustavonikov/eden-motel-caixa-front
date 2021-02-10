@@ -1,0 +1,542 @@
+{
+  "entry": [
+    {
+      "id": 1,
+      "number": "101",
+      "nome": "Simão Pedro",
+      "type": "Paraíso",
+      "valor_diaria": 55,
+      "placa": "QFD3230",
+      "data": "1/12",
+      "time": "00:48",
+      "desconto": "0,00"
+    },
+    {
+      "id": 2,
+      "number": "102",
+      "nome": "João",
+      "type": "Paraíso",
+      "valor_diaria": 65,
+      "placa": "QFD3230",
+      "data": "1/6",
+      "time": "00:48",
+      "desconto": "0,00"
+    },
+    {
+      "id": 3,
+      "number": "103",
+      "nome": "Thiago Bezerra Macedo Apolonis Aviari",
+      "type": "Doce pecado",
+      "valor_diaria": 75,
+      "placa": "QFD3230",
+      "data": "20/11/2018",
+      "time": "00:48",
+      "desconto": "0,00"
+    },
+    {
+      "id": 4,
+      "number": "104",
+      "nome": "Matheus",
+      "type": "Paraíso",
+      "valor_diaria": 85,
+      "placa": "QFD3230",
+      "data": "20/11/2018",
+      "time": "00:48",
+      "desconto": "0,00"
+    },
+    {
+      "id": 5,
+      "number": "105",
+      "nome": "Bartolomeu",
+      "type": "Paraíso",
+      "valor_diaria": 95,
+      "placa": "QFD3230",
+      "data": "20/11/2018",
+      "time": "00:48",
+      "desconto": "0,00"
+    },
+    {
+      "id": 6,
+      "number": "106",
+      "nome": "Tomé",
+      "type": "Paraíso",
+      "valor_diaria": 45,
+      "placa": "QFD3230",
+      "data": "20/11/2018",
+      "time": "00:48",
+      "desconto": "0,00"
+    }
+  ],
+  "apagar": [
+    {
+      "id": 1,
+      "number": "101",
+      "nome": "Simão Pedro",
+      "type": "Paraíso",
+      "valor_diaria": 55,
+      "placa": "QFD3230",
+      "data": "1/12",
+      "time": "00:48",
+      "desconto": "0,00"
+    },
+    {
+      "id": 3,
+      "number": "103",
+      "nome": "Thiago Bezerra Macedo Apolonis Aviari",
+      "type": "Doce pecado",
+      "valor_diaria": 75,
+      "placa": "QFD3230",
+      "data": "20/11/2018",
+      "time": "00:48",
+      "desconto": "0,00"
+    },
+    {
+      "id": 4,
+      "number": "104",
+      "nome": "Matheus",
+      "type": "Paraíso",
+      "valor_diaria": 85,
+      "placa": "QFD3230",
+      "data": "20/11/2018",
+      "time": "00:48",
+      "desconto": "0,00"
+    },
+    {
+      "id": 5,
+      "number": "105",
+      "nome": "Bartolomeu",
+      "type": "Paraíso",
+      "valor_diaria": 95,
+      "placa": "QFD3230",
+      "data": "20/11/2018",
+      "time": "00:48",
+      "desconto": "0,00"
+    },
+    {
+      "id": 6,
+      "number": "106",
+      "nome": "Tomé",
+      "type": "Paraíso",
+      "valor_diaria": 45,
+      "placa": "QFD3230",
+      "data": "20/11/2018",
+      "time": "00:48",
+      "desconto": "0,00"
+    }
+  ],
+  "produtos": [
+    {
+      "id": "1",
+      "name": "Coca cola lata",
+      "price": "4,50",
+      "quantity": 35,
+      "quantidade": null
+    },
+    {
+      "id": "2",
+      "name": "Guaraná",
+      "price": "4,50",
+      "quantity": 35
+    },
+    {
+      "id": "3",
+      "name": "Água Mineral GRF 300",
+      "quantity": "35",
+      "price": "4,00"
+    },
+    {
+      "id": "4",
+      "name": "Ruffles",
+      "price": "3,50",
+      "quantity": 35
+    },
+    {
+      "id": "5",
+      "name": "Cookies",
+      "quantity": "20",
+      "price": "3,50"
+    },
+    {
+      "id": "6",
+      "name": "Chocolate Lacta",
+      "quantity": "20",
+      "price": "2,50"
+    },
+    {
+      "id": "7",
+      "name": "Champagne",
+      "price": "45,50",
+      "quantity": 20
+    },
+    {
+      "id": "8",
+      "name": "Cerveja",
+      "quantity": "50",
+      "price": "3,50"
+    },
+    {
+      "id": "9",
+      "name": "Doritos",
+      "quantity": "20",
+      "price": "4,20"
+    },
+    {
+      "id": "10",
+      "name": "Whisky",
+      "quantity": "20",
+      "price": "92,30"
+    },
+    {
+      "id": "11",
+      "name": "Sopa",
+      "quantity": "5",
+      "price": "5,00"
+    },
+    {
+      "id": "12",
+      "name": "Sanduíche",
+      "quantity": "10",
+      "price": "4,79"
+    },
+    {
+      "id": "14",
+      "name": "Achocolatado",
+      "quantity": "10",
+      "price": "2,69"
+    }
+  ],
+  "consumo": [
+    {
+      "name": "AGUA MINERAL GRF 330 ML",
+      "price": "5.00",
+      "quantity": 1
+    },
+    {
+      "name": "REFRIGERANTE LATA 350 ML",
+      "price": "5.00",
+      "quantity": 1
+    },
+    {
+      "name": "Guarana",
+      "price": "5.00",
+      "quantity": 1
+    },
+    {
+      "name": "Guarana",
+      "price": "5.00",
+      "quantity": 1
+    }
+  ],
+  "sessions": [
+    {
+      "login": "Gustavo",
+      "password": "1234",
+      "id": 1
+    }
+  ],
+  "consumoTotal": [
+    {
+      "id": 1,
+      "consumoTotal": 120,
+      "diariaTotal": 120
+    }
+  ],
+  "apartamentos": [
+    {
+      "id": 1,
+      "status": "LIVRE",
+      "number": 101,
+      "type": "DOCE_PECADO"
+    },
+    {
+      "id": 2,
+      "status": "LIVRE",
+      "number": 102,
+      "type": "DOCE_PECADO"
+    },
+    {
+      "id": 3,
+      "status": "OCUPADO",
+      "number": 103,
+      "type": "PARAISO"
+    },
+    {
+      "id": 4,
+      "status": "LIVRE",
+      "number": 104,
+      "type": "PARAISO"
+    },
+    {
+      "id": 5,
+      "status": "LIVRE",
+      "number": 104,
+      "type": "PARAISO"
+    },
+    {
+      "id": 6,
+      "status": "LIVRE",
+      "number": 104,
+      "type": "PARAISO"
+    },
+    {
+      "id": 7,
+      "status": "LIVRE",
+      "number": 104,
+      "type": "PARAISO"
+    },
+    {
+      "id": 8,
+      "status": "LIVRE",
+      "number": 104,
+      "type": "PARAISO"
+    },
+    {
+      "id": 9,
+      "status": "LIVRE",
+      "number": 104,
+      "type": "PARAISO"
+    },
+    {
+      "id": 10,
+      "status": "LIVRE",
+      "number": 104,
+      "type": "PARAISO"
+    },
+    {
+      "id": 11,
+      "status": "LIVRE",
+      "number": 104,
+      "type": "PARAISO"
+    },
+    {
+      "id": 12,
+      "status": "LIVRE",
+      "number": 104,
+      "type": "PARAISO"
+    },
+    {
+      "id": 13,
+      "status": "LIVRE",
+      "number": 104,
+      "type": "PARAISO"
+    },
+    {
+      "id": 14,
+      "status": "LIVRE",
+      "number": 104,
+      "type": "PARAISO"
+    },
+    {
+      "id": 15,
+      "status": "LIVRE",
+      "number": 104,
+      "type": "PARAISO"
+    },
+    {
+      "id": 16,
+      "status": "LIVRE",
+      "number": 104,
+      "type": "PARAISO"
+    },
+    {
+      "id": 17,
+      "status": "LIVRE",
+      "number": 104,
+      "type": "PARAISO"
+    },
+    {
+      "id": 18,
+      "status": "LIVRE",
+      "number": 104,
+      "type": "PARAISO"
+    },
+    {
+      "id": 19,
+      "status": "LIVRE",
+      "number": 104,
+      "type": "PARAISO"
+    },
+    {
+      "id": 20,
+      "status": "OCUPADO",
+      "number": 103,
+      "type": "PARAISO"
+    },
+    {
+      "id": 21,
+      "status": "OCUPADO",
+      "number": 103,
+      "type": "PARAISO"
+    },
+    {
+      "id": 22,
+      "status": "OCUPADO",
+      "number": 103,
+      "type": "DOCE_PECADO"
+    },
+    {
+      "id": 23,
+      "status": "OCUPADO",
+      "number": 103,
+      "type": "DOCE_PECADO"
+    },
+    {
+      "id": 24,
+      "status": "OCUPADO",
+      "number": 103,
+      "type": "DOCE_PECADO"
+    }
+  ],
+  "historico-entradas": [
+    {
+      "id": 1,
+      "number": 101,
+      "entry_date": "10/02/2021",
+      "entry_time": "00:02",
+      "exit_date": "10/02/2021",
+      "exit_time": "01:02",
+      "length_stay": "01:00",
+      "extraHours": "00:00",
+      "consumo": [
+        {
+          "name": "Coca-cola Lata 300ml",
+          "price": "4.50",
+          "quantity": "2"
+        },
+        {
+          "name": "Água Mineral GRF 300ml",
+          "price": "4.00",
+          "quantity": "1"
+        }
+      ],
+      "totalPrice": "13.00",
+      "valor_diaria": "55.00",
+      "desconto": null
+    },
+    {
+      "id": 2,
+      "number": 102,
+      "entry_date": "10/02/2021",
+      "entry_time": "00:04",
+      "exit_date": "10/02/2021",
+      "exit_time": "01:18",
+      "length_stay": "01:14",
+      "extraHours": "00:00",
+      "consumo": [
+        {
+          "name": "Coca-cola Lata 300ml",
+          "price": "4.50",
+          "quantity": "2"
+        },
+        {
+          "name": "Água Mineral GRF 300ml",
+          "price": "4.00",
+          "quantity": "1"
+        }
+      ],
+      "totalPrice": "13.00",
+      "valor_diaria": "55.00",
+      "desconto": null
+    },
+    {
+      "id": 3,
+      "number": 103,
+      "entry_date": "10/02/2021",
+      "entry_time": "00:05",
+      "exit_date": "10/02/2021",
+      "exit_time": "01:25",
+      "length_stay": "01:20",
+      "extraHours": "00:00",
+      "consumo": [
+        {
+          "name": "Coca-cola Lata 300ml",
+          "price": "4.50",
+          "quantity": "2"
+        },
+        {
+          "name": "Água Mineral GRF 300ml",
+          "price": "4.00",
+          "quantity": "1"
+        }
+      ],
+      "totalPrice": "13.00",
+      "valor_diaria": "55.00",
+      "desconto": null
+    },
+    {
+      "id": 4,
+      "number": 104,
+      "entry_date": "10/02/2021",
+      "entry_time": "00:08",
+      "exit_date": "10/02/2021",
+      "exit_time": "01:36",
+      "length_stay": "01:24",
+      "extraHours": "00:00",
+      "consumo": [
+        {
+          "name": "Coca-cola Lata 300ml",
+          "price": "4.50",
+          "quantity": "2"
+        },
+        {
+          "name": "Água Mineral GRF 300ml",
+          "price": "4.00",
+          "quantity": "1"
+        }
+      ],
+      "totalPrice": "13.00",
+      "valor_diaria": "55.00",
+      "desconto": null
+    },
+    {
+      "id": 5,
+      "number": 105,
+      "entry_date": "10/02/2021",
+      "entry_time": "00:12",
+      "exit_date": "10/02/2021",
+      "exit_time": "01:42",
+      "length_stay": "01:30",
+      "extraHours": "00:00",
+      "consumo": [
+        {
+          "name": "Coca-cola Lata 300ml",
+          "price": "4.50",
+          "quantity": "2"
+        },
+        {
+          "name": "Água Mineral GRF 300ml",
+          "price": "4.00",
+          "quantity": "1"
+        }
+      ],
+      "totalPrice": "13.00",
+      "valor_diaria": "55.00",
+      "desconto": null
+    },
+    {
+      "id": 6,
+      "number": 106,
+      "entry_date": "10/02/2021",
+      "entry_time": "00:21",
+      "exit_date": "10/02/2021",
+      "exit_time": "01:51",
+      "length_stay": "01:30",
+      "extraHours": "00:00",
+      "consumo": [
+        {
+          "name": "Coca-cola Lata 300ml",
+          "price": "4.50",
+          "quantity": "2"
+        },
+        {
+          "name": "Água Mineral GRF 300ml",
+          "price": "4.00",
+          "quantity": "1"
+        }
+      ],
+      "totalPrice": "13.00",
+      "valor_diaria": "55.00",
+      "desconto": null
+    }
+  ]
+}

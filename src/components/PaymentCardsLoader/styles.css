@@ -1,0 +1,25 @@
+.payment-container {
+    height: 585px;
+    width: 780px;
+
+    border-radius: 12px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+}
+
+.payment-container .Shimmer-shimmer-0-1-1 {
+    height: 585px;
+    width: 780px;
+
+    background-size: cover!important;
+    background-color: #f0f0f0!important;
+    background-image: linear-gradient(to right,#f1f1f1 40%,#eee 50%,#f1f1f1 60%)!important;
+
+    display: block;
+
+    border-radius: 8px;
+
+    animation: shimmerAnim 1.7s infinite linear!important;
+}

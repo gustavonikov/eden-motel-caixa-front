@@ -1,0 +1,68 @@
+aside.app-sidebar {
+    min-height: 100vh;
+
+    width: 260px;
+
+    background-color: var(--primary-green);
+    
+    padding-right: 20px;
+
+    border-top-right-radius: 8px;
+}
+
+aside.app-sidebar a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    
+    padding: 30px;
+    
+    color: var(--primary-black);
+
+    list-style: none;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+
+    border-top-right-radius: 30px 30px;
+    border-bottom-right-radius: 30px 30px;
+}
+
+aside.app-sidebar a.active-bar {
+    color: var(--secondary-green);
+    background-color: var(--primary-black);
+
+    border-top-right-radius: 30px 30px;
+    border-bottom-right-radius: 30px 30px;
+}
+
+aside.app-sidebar a:first-child {
+    margin-top: 50px;
+}
+
+aside.app-sidebar a .icon {
+    margin-right: 15px;
+}
+
+aside.app-sidebar a .icon-report {
+    margin-right: 15px;
+}
+
+aside.app-sidebar a:hover {
+    transition: 0.4s all;
+
+    background-color: #27b4399f;
+
+    border-top-right-radius: 30px 30px;
+    border-bottom-right-radius: 30px 30px;
+
+    cursor: pointer;
+}
+
+aside.app-sidebar a.active-bar:hover {
+    background-color: var(--primary-black);
+}
+
+aside.app-sidebar button {
+    
+}

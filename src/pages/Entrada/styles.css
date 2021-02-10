@@ -1,0 +1,398 @@
+#entry-page {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+}
+
+#entry-page .dashboard-container {
+    width: 88%;
+
+    padding: 0px 30px 20px;
+    margin: 60px auto 0;
+}
+
+#entry-page .dashboard-container .title-order {
+    font-weight: 700;
+    font-size: 20px;
+    color: #110f16;
+}
+
+#entry-page .dashboard-container ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 24px;
+    list-style: none;
+}
+
+#entry-page .dashboard-container ul li {
+    padding: 25px;
+    border-radius: 8px;
+
+    height: 430px;
+    width: 290px;
+
+    position: relative;
+
+    box-shadow: 0px 5px 14px var(--shadow-color);
+}
+
+#entry-page .dashboard-container ul li strong {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    color: #41414d;
+}
+
+#entry-page .dashboard-container ul li .edit-icon {
+    margin-left: 50px;
+
+    cursor: pointer;
+
+    padding-top: 1px;
+}
+
+#entry-page .dashboard-container ul li .edit-icon:hover {
+    background-color: #ebe3e3;
+
+    box-shadow: 0 0 28px #ebe3e3;
+}
+
+#entry-page .dashboard-container ul li strong:first-child {
+    margin-top: 0px;
+}
+
+#entry-page .dashboard-container ul li span {
+    font-size: 17px;
+}
+
+#entry-page .dashboard-container ul li .button-wrapper {
+    width: 84%;
+
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+
+    bottom: 0;
+
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+
+#entry-page .dashboard-container ul li button {
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#entry-page .dashboard-container ul li .insert-consumption-icon {
+    margin-right: 15px;
+}
+
+#entry-page .dashboard-container ul li button:first-child {
+    margin-bottom: 18px;
+    padding: 0px 10px;
+    
+    box-shadow: 0px 4px 7px 0px var(--primary-black);
+
+    transition: background .2s;
+}
+
+#entry-page .dashboard-container ul li button:last-child {
+    background-color: var(--primary-green);
+    
+    box-shadow: 0px 4px 7px 0px var(--third-green);
+    
+    height: 52px;
+    
+    transition: background .2s;
+}
+
+#entry-page .dashboard-container ul li button:first-child:hover {
+    opacity: .85;
+}
+
+#entry-page .dashboard-container ul li button:last-child:hover {
+    background-color: var(--third-green);
+}
+
+#consumption-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#consumption-modal > div:nth-child(1) {
+    background-color: rgba(0, 0, 0, 0.322)!important;
+}
+
+#consumption-modal .modal-container {
+    width: 550px;
+    height: 470px;
+    
+    background-color: #fff;
+
+    border-radius: 8px;
+
+    position: relative;
+}
+
+#consumption-modal .modal-container .close-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    cursor: pointer;
+}
+
+#consumption-modal .modal-container .modal-content {
+    padding: 20px;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+#consumption-modal .modal-container .modal-content .wrapper {
+    width: 100%;
+
+    padding: 0 35px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#consumption-modal .modal-container .modal-content h2 {
+    font-size: 24px;
+}
+
+#consumption-modal .modal-container .modal-content h2:last-child {
+    margin-top: 40px;
+}
+
+#consumption-modal .modal-container .modal-content .wrapper .modal-diaria-select {
+    width: 300px;
+
+    font-size: 18px;
+
+    margin-bottom: 30px;
+    margin-top: 20px;
+
+    text-align: left;
+}
+
+#consumption-modal .modal-container .button-diaria-container {
+    width: 94%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#consumption-modal .modal-container .modal-content .wrapper .css-2b097c-container {
+    padding-left: 0;
+}
+
+#consumption-modal .modal-container .modal-content .wrapper .css-1pahdxg-control {
+    border-color: #5bb4b1d2;
+    box-shadow: 0 0 0 1px #5bb4b1d2;
+}
+
+#consumption-modal .modal-container .modal-content .wrapper .css-1pahdxg-control:hover {
+    border-color: #5bb4b1d2;
+    box-shadow: 0 0 0 1px #5bb4b1d2;
+}
+
+#consumption-modal > div.modal-container > div.modal-content > div > div > div {
+    padding: 5px 0px 5px 5px;
+
+    border-radius: 15px;
+}
+
+#consumption-modal .modal-container .modal-content .modal-product-content {
+    width: 100%;
+    
+    margin: 20px 0px 30px;
+    padding: 0 35px;
+
+    display: flex;
+    align-items: center;
+}
+
+#consumption-modal .modal-container .modal-content .modal-product-content .css-1pahdxg-control {
+    border-color: #5bb4b1d2;
+    box-shadow: 0 0 0 1px #5bb4b1d2;
+}
+
+#consumption-modal .modal-container .modal-content .modal-product-content .css-1pahdxg-control:hover {
+    border-color: #5bb4b1d2;
+    box-shadow: 0 0 0 1px #5bb4b1d2;
+}
+
+#consumption-modal .modal-container .modal-content .modal-product-content .modal-product-select {
+    width: 300px;
+
+    font-size: 18px;
+
+    margin-right: 40px;
+
+    text-align: left;
+}
+
+#consumption-modal .modal-container .modal-content .modal-product-content .modal-input {
+    width: 65px;
+    height: 50px;
+
+    font-size: 18px;
+
+    padding: 0px 3px 0px 15px;
+
+    text-align: center;
+    
+    border: 1px solid var(--border-primary-color);
+    border-radius: 3px;
+}
+
+#consumption-modal .modal-container .modal-content .modal-product-content .modal-input:focus {
+    border-color: #5bb4b1d2;
+    box-shadow: 0px 0px 1px 1px #5bb4b1d2;
+}
+
+#consumption-modal .modal-container .button-products-container {
+    width: 94%;
+
+    padding: 0 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#consumption-modal .modal-container button {
+    width: 145px;
+
+    transition: background .2s;
+
+    background-color: #24c73ae3;
+}
+
+#consumption-modal .modal-container button:hover {
+    background: var(--third-green);
+}
+
+#change-apt-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#change-apt-modal > div:nth-child(1) {
+    background-color: rgba(0, 0, 0, 0.322)!important;
+}
+
+#change-apt-modal .modal-container {
+    width: 430px;
+    height: 280px;
+    
+    background-color: #fff;
+
+    border-radius: 8px;
+
+    padding: 15px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#change-apt-modal .modal-container h2 {
+    margin-top: 10px;
+
+    font-size: 24px;
+}
+
+#change-apt-modal .modal-container label {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+#change-apt-modal .modal-container strong {
+    font-size: 18px;
+
+    margin-right: 10px;
+}
+
+#change-apt-modal .modal-container .css-1pahdxg-control {
+    border-color: #5bb4b1d2;
+    box-shadow: 0 0 0 1px #5bb4b1d2;
+}
+
+#change-apt-modal .modal-container .css-1pahdxg-control:hover {
+    border-color: #5bb4b1d2;
+    box-shadow: 0 0 0 1px #5bb4b1d2;
+}
+
+#change-apt-modal > div.modal-container > div.modal-change-apt-select.css-2b097c-container > div {
+    border-radius: 15px;
+
+    padding: 5px 0px 5px 5px;
+}
+
+#change-apt-modal .modal-container .modal-change-apt-select {
+    width: 300px;
+
+    font-size: 18px;
+    text-align: left;
+
+    margin: 55px 0;
+}
+
+#change-apt-modal .modal-container .button-container {
+    width: 96%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#change-apt-modal .modal-container button {
+    width: 140px;
+    height: 50px;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    border-radius: 6px;
+    
+    transition: background .2s;
+}
+
+#change-apt-modal .modal-container button:first-child {
+    background-color: var(--primary-red);
+}
+
+#change-apt-modal .modal-container button:first-child:hover {
+    background-color: var(--secondary-red);
+}
+
+#change-apt-modal .modal-container button:last-child {
+    background-color: var(--primary-green);
+}
+
+#change-apt-modal .modal-container button:last-child:hover {
+    background-color: var(--third-green);
+}
+
+
+@media (max-width: 600px) {
+    .dashboard-container ul{
+        grid-template-columns: 1fr;
+    }
+}

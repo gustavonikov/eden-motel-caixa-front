@@ -1,0 +1,87 @@
+.iniciar-fechamento-container {
+    width: 530px;
+    height: 330px;
+
+    margin: 100px auto;
+    padding: 20px 40px;
+
+    text-align: center;
+
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px 1px var(--shadow-color);
+}
+
+.iniciar-fechamento-container h2 {
+    margin-bottom: 40px;
+
+    font-size: 24px;
+}
+
+.iniciar-fechamento-container .input-container {
+    margin-top: 10px;
+    padding: 30px 0 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.iniciar-fechamento-container .input-container label {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 18px;
+}
+
+.iniciar-fechamento-container .input-container label:first-child {
+    margin-right: 90px;
+}
+
+.iniciar-fechamento-container .input-container input {
+    width: 180px;
+
+    font-size: 16px;
+
+    margin-top: 5px;
+    padding: 10px;
+
+    border-radius: 10px;
+
+    outline: none;
+    border: 1px solid #b3aeae;
+}
+
+.iniciar-fechamento-container .input-container input:focus {
+    border-color: rgba(36, 199, 58, 0.89);
+    box-shadow: 0px 0px 1px 1px rgba(36, 199, 58, 0.89);
+}
+
+.iniciar-fechamento-container .button-container {
+    width: 100%;
+
+    margin-top: 65px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iniciar-fechamento-container button {
+    width: 140px;
+    height: 50px;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    border-radius: 6px;
+
+    box-shadow: 0px 3px 6px 0px var(--primary-black);
+
+    transition: opacity .2s;
+}
+
+
+.iniciar-fechamento-container button:hover {
+    opacity: .85;
+}

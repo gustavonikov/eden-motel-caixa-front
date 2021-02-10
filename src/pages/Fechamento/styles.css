@@ -1,0 +1,126 @@
+#report-page {
+	background-color: white;
+    min-height: 100vh;
+	display: flex;
+}
+
+#report-page .report-container {
+	height: auto;
+
+	padding: 15px;
+
+	display: flex;
+	flex-direction: column;
+
+	width: 25%;
+	margin: 0 auto;
+}
+
+#report-page .report-container h1 {
+	margin-left: 50px;
+	margin-bottom: 25px;
+}
+
+#report-page .report-container .report-content {
+    width: 410px;
+
+	line-height: 17px;
+	letter-spacing: 0.2px;
+
+	font-size: 15px;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 600;
+
+	border: 1px solid var(--primary-black);
+	border-radius: 1px;
+
+	padding: 8px;
+}
+
+#report-page .report-container .report-content header {
+	padding-bottom: 10px;
+}
+
+#report-page .report-container .report-content span {
+	margin-left: 16px;
+}
+
+#report-page .report-container .report-content span#total-entries {
+	margin-left: 5px;
+}
+
+#report-page .report-container .report-content table {
+	margin: 5px 0px;
+}
+
+#report-page .report-container .report-content table th,
+#report-page .report-container .report-content table td {
+	padding: 0 8px;
+	
+	text-align: left;
+}
+
+#report-page .report-container .report-content table th:first-child,
+#report-page .report-container .report-content table td:first-child {
+	padding-left: 0px;
+}
+
+#report-page .report-container .report-content table thead tr th {
+	padding-bottom: 5px;
+}
+
+#report-page .report-container .report-content table#entries th:last-child,
+#report-page .report-container .report-content table#entries td:last-child {
+	padding-left: 58px;
+}
+
+#report-page .report-container .report-content table#products th:first-child,
+#report-page .report-container .report-content table#products td:first-child {
+	width: 348px;
+}
+
+#report-page .report-container .report-content table#products th:last-child,
+#report-page .report-container .report-content table#products td:last-child {
+	width: 40px;
+
+	text-align: right;
+}
+
+#report-page .report-container .report-content table#tickets th:nth-child(1),
+#report-page .report-container .report-content table#tickets td:nth-child(1) {
+	width: 100px;
+}
+
+#report-page .report-container .report-content table#tickets th:nth-child(2),
+#report-page .report-container .report-content table#tickets td:nth-child(2) {
+	width: 218px
+}
+
+#report-page .report-container .report-content table#tickets th:nth-child(3),
+#report-page .report-container .report-content table#tickets td:nth-child(3) {
+	width: 70px;
+	text-align: right;
+}
+
+#report-page .report-container .report-content table#accounting td {
+	text-align: right;
+}
+
+#report-page .report-container .report-content table#accounting th:first-child, 
+#report-page .report-container .report-content table#accounting td:first-child {
+	padding-right: 0px;
+}
+
+#report-page .report-container .report-content table#accounting th:last-child {
+	text-align: center;
+}
+
+#report-page .report-container .report-content table#accounting th:last-child, 
+#report-page .report-container .report-content table#accounting td:last-child {
+	padding-left: 0px;
+}
+
+#report-page .report-container .report-content footer span {
+	margin-left: 3px;
+	margin-right: 28px;
+}
